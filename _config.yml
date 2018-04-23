@@ -22,8 +22,8 @@ navigation:
     url: /
   - name: Tentang
     url: /tentang
-  - name: Archive
-    url: /archive
+  - name: Arsip
+    url: /arsip
   - name: Tags
     url: /tags
 
