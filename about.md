@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Tentang
+permalink: /tentang/
 ---
 
 Sedikit tentang gw hehe
