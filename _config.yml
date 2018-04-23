@@ -34,7 +34,7 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:
+  email: olisykes430@gmail.com
   facebook:
   flickr:
   github: 
@@ -45,7 +45,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: jekyllrb
+  twitter: qyazh
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
@@ -53,7 +53,7 @@ footer-text: © 2018
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: maymyallicia.disqus.com
+disqus: imlevix.disqus.com
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
