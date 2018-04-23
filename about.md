@@ -9,6 +9,7 @@ Sedikit tentang gw hehe
 ### Tujuan
 
 Saya buat `blog` ini untuk belajar , dan mencari ilmu.
+Sekali - kali pos random kayak , tentang game , review mungkin (?) .
 
 ### Kontak
 
