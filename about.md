@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Sedikit tentang gw hehe
 
-### More Information
+### Tujuan
 
-A place to include any other types of information that you'd like to include about yourself.
+Saya buat `blog` ini untuk belajar , dan mencari ilmu.
 
-### Contact me
+### Kontak
 
-[email@domain.com](mailto:email@domain.com)
+[Email ke gw](mailto:olisykes430@gmail.com)
