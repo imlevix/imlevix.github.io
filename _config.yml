@@ -20,8 +20,8 @@ avatar: https://avatars1.githubusercontent.com/u/38646344?s=460&v=4
 navigation:
   - name: Blog
     url: /
-  - name: About
-    url: /about
+  - name: Tentang
+    url: /tentang
   - name: Archive
     url: /archive
   - name: Tags
