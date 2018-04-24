@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Maap gw niubi
-comments: true
 tags:
   - test
   - tags
+comments: true
 ---
 
 Hallow epriwan , selamat datang di _blog_ ini , untuk lebih lanjut bisa lihat di halaman _Tentang_ .
