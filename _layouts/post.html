@@ -2,45 +2,40 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    {% include page-image.html %}
+    <div class="page-wrapper">
+      <header class="page-header">
+        {% assign title = page.title | markdownify | strip_html %}
+        {% if page.link %}
+          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+        {% endif %}
+      </header>
 
-  <div clsss="meta">
-    <span class="date">
-      {{ page.date | date: "%Y-%m-%d" }}
-    </span>
+      <div class="page-sidebar">
+        {% include page-author.html %}
+        {% include page-categories.html %}
+        {% include page-tags.html %}
+      </div>
 
-    <ul class="tag">
-      {% for tag in page.tags %}
-      <li>
-        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
-          {{ tag }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+      <div class="page-content">
+        <div class="e-content">
+          {{ content }}
+        </div>
 
-  <div class="entry">
-    {{ content }}
-  </div>
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
 
-  <div class="pagination">
-    {% if page.previous.url %}
-      <span class="prev" >
-          <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
-            &#xE000; {{ page.previous.title }}
-          </a>
-      </span>
-    {% endif %}
-    {% if page.next.url %}
-      <span class="next" >
-          <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
-            {{ page.next.title }} &#xE001;
-          </a>
-      </span>
-    {% endif %}
-  </div>
+        {% if site.disqus.shortname %}
+          {% include disqus-comments.html %}
+        {% endif %}
 
-  {% include disqus.html %}
-</article>
+        {% include page-pagination.html %}
+      </div>
+    </div>
+  </article>
+</main>
