@@ -1,5 +1,4 @@
-﻿ This file contains configuration flags to customize your site
-#
+﻿
 
 # Name of your site (displayed in the header)
 name: ImLeviX
@@ -38,7 +37,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: AWEEKJ/kiko-now
+  github: 
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
