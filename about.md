@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Tentang
+permalink: /tentang/
 ---
 
-Some information about you!
+Sedikit inpo!
 
-### More Information
+### Sedikit
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Ok saya buat _blog_ ini untuk belajar , selain itu saya juga ingin berbagi apa yang saya tau walapun sedikit , tentang apa pun itu.

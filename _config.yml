@@ -1,19 +1,18 @@
-#
-# This file contains configuration flags to customize your site
+﻿ This file contains configuration flags to customize your site
 #
 
 # Name of your site (displayed in the header)
-name: Kiko Now
+name: ImLeviX
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Maap gw niubi
 
 #
 # Flags below are optional
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars1.githubusercontent.com/u/38646344?s=460&v=4
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
@@ -22,14 +21,12 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 navigation:
   - name: Blog
     url: /
-  - name: About
-    url: /about
-  - name: Archive
-    url: /archive
+  - name: Tentang
+    url: /tentang
+  - name: Arsip
+    url: /arsip
   - name: Tags
     url: /tags
-  - name: Theme
-    url: https://github.com/AWEEKJ/kiko-now
 
 # Pagination
 paginate: 5
@@ -49,15 +46,15 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: jekyllrb
+  twitter: # jekyllrb
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © 2018
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: # <username>.disqus.com
+disqus: levixisim.disqus.com
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
