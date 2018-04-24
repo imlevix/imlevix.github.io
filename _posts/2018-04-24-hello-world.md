@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Maap gw niubi
+comments: true
 tags:
   - test
   - tags
